@@ -48,7 +48,7 @@ for (let counter; counter >= 0; counter--) {
         boolean = true;
     }
 }
-if (boolean = true) {
+if (boolean == true) {
     console.log('Sei nella lista puoi entrare');
 } 
 else 
