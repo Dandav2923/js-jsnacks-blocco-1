@@ -13,12 +13,46 @@
 // }
 
 // svolgimento con ciclo while 
-let somma = 0;
-let contatore = 9;
+// let somma = 0;
+// let contatore = 9;
 
-while (contatore >= 0) {
-    const numberUser = parseInt(prompt('Scrivi un numero'));
-    somma += numberUser;
-    console.log(somma);
-    contatore--;
+// while (contatore >= 0) {
+//     const numberUser = parseInt(prompt('Scrivi un numero'));
+//     somma += numberUser;
+//     console.log(somma);
+//     contatore--;
+// }
+
+// /svolgimento con ciclo while 
+
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+// script con ciclo for 
+const nameUser = prompt('Inserisci il tuo nome');
+const nameList = [
+ 'daniele',
+ 'chiara',
+ 'fulvio',
+ 'meme',
+ 'sara',
+ 'valerio',
+ 'christian',
+ 'fabio',
+ 'francesco'
+];
+let counter = nameList.length-1;
+// console.log(counter);
+let boolean = false;
+for (let counter; counter >= 0; counter--) {
+    if (nameList[counter] == nameUser) { 
+        boolean = true;
+    }
 }
+if (boolean = true) {
+    console.log('Sei nella lista puoi entrare');
+} 
+else 
+    console.log('Non sei nella lista non puoi entrare');
+
+
+
