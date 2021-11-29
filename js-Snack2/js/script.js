@@ -44,7 +44,7 @@ const nameList = [
 let boolean = false;
 let counter = nameList.length - 1;
 
-while (counter >= 0) {
+while ((counter >= 0) && (boolean=false)) {
     if (nameUser == nameList[counter]) {
         boolean = true;
     }
