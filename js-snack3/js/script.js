@@ -10,7 +10,6 @@ let lista2 = [1,2,3,4,5,6,7];
 let lunghezzaLista1 = lista1.length;
 let lunghezzaLista2 = lista2.length;
 
-let counter = 0;
 while (!(lunghezzaLista1 == lunghezzaLista2)) {
     if (lunghezzaLista1 > lunghezzaLista2) {
         lista2.push(lista2[lunghezzaLista2 -1]+1);
