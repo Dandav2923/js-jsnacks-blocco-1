@@ -5,12 +5,12 @@
 // poi fare la somma tra i numeri inseriti
 
 // svolgimento con ciclo for 
-let somma = 0;
-for (let index = 9; index >=0 ; index--) {
-    const numberUser = parseInt (prompt ('Scrivi un numero'));
-    somma += numberUser;
-    console.log(somma);
-}
+// let somma = 0;
+// for (let index = 9; index >=0 ; index--) {
+    // const numberUser = parseInt (prompt ('Scrivi un numero'));
+    // somma += numberUser;
+    // console.log(somma);
+// }
 
 // svolgimento con ciclo while 
 let somma = 0;
@@ -19,9 +19,8 @@ let contatore = 9;
 while (contatore >= 0) {
     const numberUser = parseInt(prompt('Scrivi un numero'));
     somma += numberUser;
-    console.log(somma);
     contatore--;
 }
-
+console.log(somma);
 // /svolgimento con ciclo while 
 

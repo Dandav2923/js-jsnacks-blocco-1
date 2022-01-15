@@ -12,7 +12,7 @@ let lunghezzaLista2 = lista2.length;
 
 while (!(lunghezzaLista1 == lunghezzaLista2)) {
     if (lunghezzaLista1 > lunghezzaLista2) {
-        lista2.push(lista2[lunghezzaLista2 -1]+1);
+        lista2.push(lista2[lunghezzaLista2 -1] + 1);
     } else if (lunghezzaLista2 > lunghezzaLista1) {
         lista1.push(lista1[lunghezzaLista1 - 1] + 1);
     }

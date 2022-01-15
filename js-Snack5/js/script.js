@@ -7,7 +7,7 @@ let index = 5;
 let boolean = false;
 
 for (index; index >= 0; index--) {
-    const numberUser = parseInt(prompt ('Insrisci un numero'));
+    const numberUser = parseInt(prompt ('Inserisci un numero'));
     if (numberUser % 2 == 1) {
         boolean = true;
         containerOddNumber.push(numberUser);
